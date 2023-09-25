@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: flex-wrap;*/
+  justify-content: center;
+  /*align-items: baseline;*/
+  gap: 40px;
+}
+
+.content-area {
+  margin: 2rem;
+  display: flex;
+  flex-flow: wrap;
+  /*gap: 30px;*/
+  justify-content: space-around;
+  background-color: #f2f3f5;
+}
+
+.product-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-list {
+  min-height: 5rem;
+  background-color: honeydew;
+  margin: 1rem;
+}
+
+.product-item-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item {
+  background-color: rgb(250, 250, 250);
+  margin: 15px;
+  height: 100px;
+  min-width: 90%;
+  max-width: 90%;
+}
